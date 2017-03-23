@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <!--加载结束界面布局-->
+    <LinearLayout
+        android:id="@+id/linear_noloading_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="30dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:visibility="invisible">
+
+        <!--图标-->
+        <ImageView
+            android:id="@+id/iv_noloading_icon"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/ahlib_load_fail"
+            />
+
+        <!--提示信息-->
+        <TextView
+            android:id="@+id/tv_load_result_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="20dp"
+            android:includeFontPadding="false"
+            android:textSize="15sp"
+            android:textColor="#333333"
+            android:text="加载失败"
+            android:singleLine="true"
+            tools:text="加载失败"
+            />
+
+
+        <!--失败状态功能按钮-->
+        <TextView
+            android:id="@+id/btn_fail_func"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:gravity="center"
+            android:text="刷新重试"
+            android:textSize="15sp"
+            android:textColor="#4183ff"
+            android:visibility="gone"
+            android:background="@drawable/ahlib_load_btn_bg"
+            tools:text="刷新重试"/>
+
+        <!--无数据状态功能按钮-->
+        <TextView
+            android:id="@+id/btn_nodata_func"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="#4183ff"
+            android:visibility="gone"
+            android:background="@drawable/ahlib_load_btn_bg"
+            tools:text="添加数据"/>
+
+    </LinearLayout>
+
+    <!--正在加载布局-->
+    <RelativeLayout
+        android:id="@+id/linear_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:id="@+id/linear_loading_tip_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:visibility="visible">
+            <ProgressBar
+                android:id="@+id/progressbar_loading_for_night"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:indeterminateDrawable="@drawable/ahlib_progressbar_video_style"
+                android:indeterminateDuration="1500"
+                android:visibility="gone"
+                />
+
+            <ProgressBar
+                android:id="@+id/progressbar_loading"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:indeterminateDrawable="@drawable/ahlib_loading_circle"
+                android:indeterminateDuration="600"
+                android:indeterminateBehavior="repeat"
+                android:indeterminateOnly="true"
+                />
+
+            <TextView
+                android:id="@+id/tv_loading_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:includeFontPadding="false"
+                android:text="加载中"
+                android:textSize="12sp"
+                android:textColor="#555555"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/tm_loading_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_alignBottom="@id/linear_loading_tip_layout"
+            android:layout_toRightOf="@id/linear_loading_tip_layout"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

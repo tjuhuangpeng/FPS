@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ah_common_edge_expand_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        tools:text="Test"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="@dimen/ahlib_common_textsize02"
+        android:textColor="@color/ahlib_common_color02"
+        android:gravity="center">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/ah_common_edge_expand_status_image"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:scaleType="fitXY" />
+
+</merge>

@@ -1,0 +1,89 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- UED新设计的尺寸值. 2016.06.28, by lff,  start-->
+    <!--用于多数重要标题及阅读类文字-->
+    <dimen name="ahlib_common_textsize01">17sp</dimen>
+
+    <!--用于多数标题或操作类文字-->
+    <dimen name="ahlib_common_textsize02">16sp</dimen>
+
+    <!--用于多数次级文字-->
+    <dimen name="ahlib_common_textsize03">14sp</dimen>
+
+    <!--用于多数正文或操作类文字-->
+    <dimen name="ahlib_common_textsize04">15sp</dimen>
+
+    <!--用于多数说明类文字-->
+    <dimen name="ahlib_common_textsize05">13sp</dimen>
+
+    <!--用于多数辅助信息类文字-->
+    <dimen name="ahlib_common_textsize06">12sp</dimen>
+
+    <!--用于辅助信息类补充文字-->
+    <dimen name="ahlib_common_textsize07">10sp</dimen>
+
+    <!--用于小标签类文字-->
+    <dimen name="ahlib_common_textsize08">9sp</dimen>
+
+    <!--用于正文标题和价格文字-->
+    <dimen name="ahlib_common_textsize09">25sp</dimen>
+
+    <!--用于阅读类文字-->
+    <dimen name="ahlib_common_textsize10">18sp</dimen>
+    <!-- UED新设计的尺寸值. end-->
+
+    <dimen name="ahlib_common_font01">12sp</dimen>
+    <dimen name="ahlib_common_font02">13sp</dimen>
+    <dimen name="ahlib_common_font03">14sp</dimen>
+    <dimen name="ahlib_common_font04">15sp</dimen>
+    <dimen name="ahlib_common_font05">16sp</dimen>
+    <dimen name="ahlib_common_font06">17sp</dimen>
+    <dimen name="ahlib_common_font07">18sp</dimen>
+    <dimen name="ahlib_common_font08">19sp</dimen>
+    <dimen name="ahlib_common_font09">21sp</dimen>
+    <dimen name="ahlib_common_font10">11sp</dimen>
+    <dimen name="ahlib_common_font11">10sp</dimen>
+    <dimen name="ahlib_common_font12">38sp</dimen>
+    <dimen name="ahlib_common_font13">24sp</dimen>
+    <dimen name="ahlib_common_dialog_content_toppadding">10dp</dimen>
+    <dimen name="ahlib_common_dialog_content_bottompadding">20dp</dimen>
+    <dimen name="ahlib_common_dialog_content_leftandrightpadding">20dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_common_horizontal_margin">16dp</dimen>
+    <dimen name="activity_common_vertical_margin">16dp</dimen>
+    <dimen name="ahlib_common_quickindex_overlay_height">80dip</dimen>
+    <!-- 快速检索浮层高 -->
+    <dimen name="ahlib_common_quickindex_overlay_width">80dip</dimen>
+    <!-- 降价活动画红点x轴 -->
+    <dimen name="ahlib_common_sliding_scroll_view_horizontal">18dp</dimen>
+    <!-- 降价活动画红点y轴 -->
+    <dimen name="ahlib_common_sliding_scroll_view_vertical">-9dp</dimen>
+    <!-- 画红点圆半径 -->
+    <dimen name="ahlib_common_sliding_scroll_view_radius">3dp</dimen>
+
+    <dimen name="dialog_padding">70dp</dimen><!-- 对话框左右间距 -->
+    <dimen name="snackbar_height">39dp</dimen><!-- snackbar的高度 -->
+    <dimen name="progress_dialog_width">160dp</dimen><!-- 进度对话框的宽度 -->
+    <dimen name="progress_dialog_height">90dp</dimen><!-- 进度对话框的高度 -->
+
+    <!-- Floating Menu -->
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+
+    <dimen name="fab_icon_size">24dp</dimen>
+
+    <dimen name="fab_plus_icon_size">14dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+
+    <dimen name="fab_stroke_width">1dp</dimen>
+
+    <dimen name="fab_actions_spacing">16dp</dimen>
+    <dimen name="fab_labels_margin">8dp</dimen>
+</resources>

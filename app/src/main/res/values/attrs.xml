@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- show case view 样式 start-->
+    <declare-styleable name="ShowcaseView">
+        <attr name="sv_backgroundColor" format="color|reference" />
+        <attr name="sv_detailTextColor" format="color|reference" />
+        <attr name="sv_titleTextColor" format="color|reference" />
+        <attr name="sv_buttonBackgroundColor" format="color|reference" />
+        <attr name="sv_buttonForegroundColor" format="color|reference" />
+        <attr name="sv_buttonText" format="string|reference" />
+        <attr name="sv_detailTextAppearance" format="reference" />
+        <attr name="sv_titleTextAppearance" format="reference" />
+        <attr name="sv_showcaseColor" format="color|reference" />
+        <attr name="sv_tintButtonColor" format="boolean|reference" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="showcaseViewStyle" format="reference" />
+    </declare-styleable>
+    <!-- show case view 样式 end-->
+
+    <declare-styleable name="ahlib_ClipImageView">
+        <attr name="ahlib_cp_horizontalPadding" format="dimension|reference" />
+        <attr name="ahlib_cp_borderColor" format="color|reference" />
+        <attr name="ahlib_cp_borderOutsizeColor" format="color|reference" />
+        <attr name="ahlib_cp_botderWidth" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="WebLoadProgressBar">
+        <attr name="progress_max" format="integer" />
+        <attr name="progress_current" format="integer" />
+
+        <attr name="progress_reached_color" format="color" />
+        <attr name="progress_unreached_color" format="color" />
+
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+
+        <attr name="progress_text_offset" format="dimension" />
+
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="WebLoadProgressBarStyleTheme">
+        <attr name="WebLoadProgressBarStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AHCustomRatioImageView">
+        <!--图片宽度比例值-->
+        <attr name="imageWidth" format="integer" />
+        <!--图片高度比例值-->
+        <attr name="imageHeight" format="integer" />
+    </declare-styleable>
+
+<!--    <declare-styleable name="EqualRatioRelativeLayout">
+        <attr name="widthWeight" format="integer" />
+        <attr name="heightWeight" format="integer" />
+    </declare-styleable>-->
+
+    <declare-styleable name="EqualRatioLinearLayout">
+        <attr name="linearWidthWeight" format="integer" />
+        <attr name="linearHeightWeight" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="AHErrorLayout">
+        <attr name="failTipContent" format="string" />
+        <attr name="noDataTipContent" format="string" />
+        <attr name="loadingTipContent" format="string" />
+        <attr name="noNetworkTipContent" format="string" />
+        <attr name="failActionName" format="string" />
+        <attr name="noDataActionName" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="AHLabelView">
+        <attr name="labelType" format="enum">
+            <enum name="type_big_1" value="1" />
+            <enum name="type_big_2" value="2" />
+            <enum name="type_small_blue" value="3" />
+            <enum name="type_small_red" value="4" />
+            <enum name="type_small_orenge" value="5" />
+            <enum name="type_small_green" value="6" />
+            <enum name="type_small_black" value="7" />
+            <enum name="type_small_round" value="8" />
+            <enum name="type_small_round_bottom" value="9" />
+            <enum name="type_small_round_red" value="10" />
+            <enum name="type_time" value="11" />
+            <enum name="type_time_icon" value="12" />
+        </attr>
+
+        <attr name="labelText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="AHCommonDivider">
+        <attr name="type" format="enum">
+            <enum name="line" value="1" />
+            <enum name="space" value="2" />
+        </attr>
+
+        <attr name="divider_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="AHForeground">
+        <attr name="android:foreground" />
+        <attr name="android:foregroundInsidePadding" />
+        <attr name="android:foregroundGravity" />
+    </declare-styleable>
+
+    <declare-styleable name="RotateLayout">
+        <attr name="angle" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="AHRoundImageView">
+        <attr name="imageBorderRadio" format="dimension" />
+        <attr name="imageShapType" format="integer" />
+    </declare-styleable>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <declare-styleable name="AHFloatingButton">
+        <attr name="fab_colorPressed" format="color"/>
+        <attr name="fab_colorDisabled" format="color"/>
+        <attr name="fab_colorNormal" format="color"/>
+        <attr name="fab_icon" format="reference"/>
+        <attr name="fab_size" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="mini" value="1"/>
+        </attr>
+        <attr name="fab_title" format="string"/>
+        <attr name="fab_stroke_visible" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="AHAddFloatingButton">
+        <attr name="fab_plusIconColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="AHFloatingMenu">
+        <attr name="fab_addButtonColorPressed" format="color"/>
+        <attr name="fab_addButtonColorNormal" format="color"/>
+        <attr name="fab_addButtonSize" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="mini" value="1"/>
+        </attr>
+        <attr name="fab_addButtonPlusIconColor" format="color"/>
+        <attr name="fab_addButtonStrokeVisible" format="boolean"/>
+        <attr name="fab_labelStyle" format="reference"/>
+        <attr name="fab_labelsPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr name="fab_expandDirection" format="enum">
+            <enum name="up" value="0"/>
+            <enum name="down" value="1"/>
+            <enum name="left" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>

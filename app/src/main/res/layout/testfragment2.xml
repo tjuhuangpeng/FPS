@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 层级优化 -->
+<RelativeLayout
+    android:id="@+id/article_main_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical" >
+
+    <selsectwindow.AHCompositeExpandView
+        android:id="@+id/ah_window_composite_expand_view"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+    </selsectwindow.AHCompositeExpandView>
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    选中时效果
+    <item android:drawable="@drawable/ahlib_checkbox_on" android:state_checked="true"/>
+    未选中时效果
+    <item android:drawable="@drawable/ahlib_checkbox_off" android:state_checked="false"/>
+
+</selector> -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <!--  选中时效果 -->
+    <item android:drawable="@drawable/ahlib_checkbox_on_b" android:state_checked="true"/>
+   <!--  未选中时效果 -->
+    <item android:drawable="@drawable/ahlib_checkbox_off_b" android:state_checked="false"/>
+
+</selector>

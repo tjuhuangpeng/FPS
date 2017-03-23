@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:auto="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <view.AHFloatingMenu
+        android:id="@+id/root_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        auto:fab_addButtonColorNormal="@color/white"
+        auto:fab_addButtonColorPressed="@color/white_pressed"
+        auto:fab_addButtonPlusIconColor="@color/half_black"
+        auto:fab_addButtonSize="normal"
+        auto:fab_labelStyle="@style/menu_labels_style"
+        auto:fab_labelsPosition="left">
+
+        <view.AHFloatingButton
+            android:id="@+id/menu_item_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            auto:fab_colorNormal="@color/white"
+            auto:fab_colorPressed="@color/white_pressed"
+            auto:fab_plusIconColor="@color/half_black"
+            auto:fab_title="menu item 1" />
+
+        <view.AHFloatingButton
+            android:id="@+id/menu_item_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            auto:fab_colorNormal="@color/white"
+            auto:fab_colorPressed="@color/white_pressed"
+            auto:fab_plusIconColor="@color/half_black"
+            auto:fab_title="menu item 2" />
+
+        <view.AHFloatingButton
+            android:id="@+id/menu_item_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            auto:fab_colorNormal="@color/white"
+            auto:fab_colorPressed="@color/white_pressed"
+            auto:fab_plusIconColor="@color/half_black"
+            auto:fab_title="menu item 3" />
+
+        <view.AHFloatingButton
+            android:id="@+id/menu_item_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            auto:fab_colorNormal="@color/white"
+            auto:fab_colorPressed="@color/white_pressed"
+            auto:fab_plusIconColor="@color/half_black"
+            auto:fab_title="menu item 4" />
+
+
+    </view.AHFloatingMenu>
+</RelativeLayout>

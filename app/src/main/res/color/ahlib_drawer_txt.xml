@@ -1,0 +1,10 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 选中时的图片背景 -->
+    <item android:state_checked="true" android:color="@color/ahlib_textcolor02"/>
+    <!-- 单击时的背景图片 -->
+    <item android:state_pressed="true" android:color="@color/ahlib_textcolor02"/>
+    <!-- 默认时的背景图片 -->
+    <item android:color="@color/ahlib_textcolor04"/>
+
+</selector>

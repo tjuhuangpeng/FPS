@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+        <!-- UED新设计的颜色值. 2016.06.28, by lff,  start-->
+        <!-- 注意，此处不会去区分Text或BG-->
+    <color name="ahlib_color16">#1b1b1b</color>
+    <color name="ahlib_color05">#999999</color>
+    <color name="ahlib_color0555">#0d999999</color>
+    <color name="ahlib_color0666">#999999</color>
+        <color name="ahlib_color09">#ffffff</color>
+        <color name="ahlib_common_color01">#4183ff</color>
+        <color name="ahlib_common_color02">#4B0082</color>
+        <color name="ahlib_common_color03">#ff651a</color>
+        <color name="ahlib_common_color04">#555555</color>
+        <color name="ahlib_common_color05">#999999</color>
+        <color name="ahlib_common_color06">#cccccc</color>
+        <color name="ahlib_common_color07">#e9e9e9</color>
+        <color name="ahlib_common_color08">#f0eff5</color>
+        <color name="ahlib_common_color09">#ffffff</color>
+        <color name="ahlib_common_color10">#eeeeee</color>
+        <color name="ahlib_common_color11">#ff9000</color>
+        <color name="ahlib_common_color12">#f85858</color>
+        <color name="ahlib_common_color13">#45c186</color>
+        <color name="ahlib_common_color14">#f6f6f6</color>
+        <color name="ahlib_common_color15">#2f62cd</color>
+        <color name="ahlib_common_color16">#1b1b1b</color>
+        <!-- UED新设计的颜色值. end-->
+        <color name="ahlib_common_transparent_background">#50000000</color>
+        <color name="ahlib_common_textcolor01">#999999</color> <!-- 灰色 多用于辅助信息-->
+        <color name="ahlib_common_textcolor02">#4680d1</color> <!-- 蓝色 多用于链接文本-->
+        <color name="ahlib_common_snackbar_blue">#cc4680d1</color> <!-- 蓝色 多用于链接文本-->
+        <color name="ahlib_common_textcolor03">#666666</color> <!-- 灰色 -->
+        <color name="ahlib_common_textcolor04">#333333</color> <!-- 灰色重黑 多用于正文-->
+        <color name="ahlib_common_textcolor05">#b5b5b5</color> <!-- 灰色偏白 多用于提示，如输入框提示字-->
+        <color name="ahlib_common_textcolor06">#000000</color> <!-- 黑色 重要标题-->
+        <color name="ahlib_common_textcolor07">#e84f3c</color> <!-- 红色 多用于价格-->
+        <color name="ahlib_common_textcolor08">#ff800d</color> <!-- 橘黄 -->
+        <color name="ahlib_common_textcolor09">#ffffff</color> <!-- 白色 -->
+        <color name="ahlib_common_textcolor10">#cccccc</color> <!-- 灰色重白 -->
+        <color name="ahlib_common_textcolor11">#28b46b</color> <!-- 柠檬黄 购车计算器，车型和价格-->
+        <color name="ahlib_common_textcolor12">#3a6ab5</color> <!-- 蓝色按下-->
+        <color name="ahlib_common_textcolor13">#96d4af</color> <!-- 购车计算器，结果中类别名称-->
+
+        <color name="ahlib_common_textcolor15">#999999</color> <!-- 原评论文字颜色-->
+        <color name="ahlib_common_textcolor16">#666666</color> <!-- 赞等按钮文字颜色-->
+
+        <color name="ahlib_common_night_textcolor01">#585858</color>
+        <color name="ahlib_common_night_textcolor02">#848484</color>
+
+        <color name="ahlib_common_bgcolor01">#f8f8f8</color> <!-- 界面背景色 -->
+        <color name="ahlib_common_bgcolor02">#d9d9d9</color> <!-- Bar的上下边线 -->
+        <color name="ahlib_common_bgcolor03">#e9e9e9</color> <!-- 标题分类栏、索引栏、“取消”按钮等 , 原本 #eeeeee -->
+        <color name="ahlib_common_bgcolor04">#e9e9e9</color> <!-- 间隔线 ,评论列表中，引用回复左边灰条-->
+        <color name="ahlib_common_bgcolor05">#f6f6f6</color> <!-- topBar、bottomBar、筛选栏、标签栏等 -->
+        <color name="ahlib_common_bgcolor06">#e3e4e6</color> <!-- 搜索输入框 -->
+        <color name="ahlib_common_bgcolor07">#d7d7d7</color> <!-- 发表评论按钮框 -->
+        <color name="ahlib_common_bgcolor08">#da4643</color> <!-- 退出登录按钮等 -->
+        <color name="ahlib_common_bgcolor09">#28b46b</color> <!-- 购车计算器中，总价部分 -->
+        <color name="ahlib_common_bgcolor10">#f1f1f1</color> <!-- 点下内容后的效果 -->
+        <color name="ahlib_common_bgcolor11">#e6e6e6</color> <!-- 未激活按钮 -->
+        <color name="ahlib_common_bgcolor12">#4680d1</color> <!-- 蓝色按钮 -->
+        <color name="ahlib_common_bgcolor13">#3a6ab5</color> <!-- 蓝色按钮按下 -->
+        <color name="ahlib_common_bgcolor14">#dadada</color> <!-- "取消"等按钮按下 -->
+        <color name="ahlib_common_bgcolor15">#c4d0ca</color> <!-- 口碑柱形图的颜色 -->
+        <color name="ahlib_common_bgcolor16">#ffb52b</color> <!-- 新闻/经销商列表中标示的背景 -->
+        <color name="ahlib_common_bgcolor17">#25aa65</color> <!-- 购车计算器，结果分割线 -->
+        <color name="ahlib_common_bgcolor18">#003893</color> <!-- 启动页版本号 -->
+        <color name="ahlib_common_bgcolor19">#4680d1</color> <!-- 视频进度条颜色-->
+        <color name="ahlib_common_bgcolor20">#cecccc</color> <!-- 显示二手车最终页 车型属性-->
+        <!--播报状态的颜色  -->
+        <color name="ahlib_common_bgcolor21">#82be1e</color> <!-- 快报播放-->
+        <!--黑框的颜色  -->
+        <color name="ahlib_common_bgcolor22">#ffffff</color> <!-- 快报最终页动作边框-->
+        <color name="ahlib_common_bgcolor23">#cccccc</color> <!-- 快报最终页的动作背景-->
+
+        <!-- 4.6添加 -->
+        <color name="ahlib_common_bgcolor28">#e4e4e4</color> <!-- 快报背景色-->
+        <color name="ahlib_common_bgcolor29">#fcfcfc</color> <!-- 快报列表背景色-->
+        <color name="ahlib_common_bgcolor30">#cccccc</color> <!-- 快报列表投影背景色-->
+        <color name="ahlib_common_bgcolor31">#f4f4f4</color> <!-- 快报列表评论背景色-->
+        <color name="ahlib_common_bgcolor32">#f0f0f0</color> <!-- 原评论标签等辅助颜色-->
+        <color name="ahlib_common_bgcolor33">#dddddd</color> <!-- 快报分割线颜色-->
+        <color name="ahlib_common_bgcolor34">#fbfbfb</color> <!-- 快报最终页底部工具栏颜色-->
+        <color name="ahlib_common_bgcolor35">#eeeeee</color> <!-- 快报，评论列表按下颜色-->
+        <color name="ahlib_common_bgcolor36">#006ef0</color> <!-- 快报播报中颜色-->
+        <color name="ahlib_common_bgcolor37">#82be1e</color> <!-- 快报即将播报颜色-->
+        <color name="ahlib_common_bgcolor38">#30ca4a</color> <!-- 快报恢复快报button颜色-->
+        <color name="ahlib_common_bgcolor39">#ff0000</color> <!-- 快报结束快报button颜色-->
+        <color name="ahlib_common_bgcolor40">#999999</color> <!-- 快报结束快报颜色-->
+        <color name="ahlib_common_bgcolor41">#ffffff</color> <!-- 点赞分享button颜色-->
+        <!-- 全局色值 -->
+        <!-- <color name="main_bg">#f0f0f0</color> -->
+
+        <drawable name="ahlib_common_orange">#FFFFA000</drawable> <!-- 口碑的星星颜色 -->
+        <!-- <drawable name="bgcolor01">#FFE2E2E2</drawable>   口碑的星星底色 -->
+
+        <color name="ahlib_common_bgcolor42">#99000000</color> <!-- 黑色透明背景 90%不透明-->
+        <!-- V4.8加入 -->
+        <color name="ahlib_common_bgcolor43">#cccccc
+        </color> <!-- 降价页面列表Item TextView（地址，经销商，距离等）背景颜色 -->
+        <color name="ahlib_common_bgcolor44">#cc000000</color> <!-- 黑色透明背景 80%不透明 -->
+        <!-- ahwebview Color Resource start -->
+        <color name="ahlib_common_ahwebview_textcolor01">#999999</color> <!-- 灰色 多用于辅助信息-->
+        <color name="ahlib_common_ahwebview_bgcolor01">#f8f8f8</color> <!-- 界面背景色 -->
+        <color name="ahlib_common_ahwebview_bgcolor08">#da4643</color> <!-- 退出登录按钮等 -->
+        <color name="ahlib_common_ahwebview_textcolor09">#ffffff</color> <!-- 白色 -->
+        <color name="ahlib_common_ahwebview_textcolor02">#4680d1</color> <!-- 蓝色 多用于链接文本-->
+        <!-- ahwebview Color Resource ends -->
+        <!-- 可滑动TabBar遮罩渐变色 start -->
+        <color name="ahlib_common_tabbar_cover_start">#00ffffff</color> <!-- 起始透明色 -->
+        <color name="ahlib_common_tabbar_cover_end">#ffffffff</color> <!-- 终止白色 -->
+        <!-- 可滑动TabBar遮罩渐变色 end -->
+        <color name="ahlib_common_updrawer_bgcolor">#66000000</color>
+        <!--v700新版夜间模式遮罩层颜色-->
+        <color name="ahlib_common_night_mask">#99000000</color>
+        <color name="ahlib_common_transparent_root_background">#00000000</color>
+
+    <color name="ahlib_bgcolor10">#f1f1f1</color> <!-- 点下内容后的效果 -->
+    <color name="ahlib_bgcolor01">#f8f8f8</color> <!-- 界面背景色 -->
+    <color name="ahlib_textcolor02">#4680d1</color> <!-- 蓝色 多用于链接文本-->
+    <color name="ahlib_textcolor04">#333333</color> <!-- 灰色重黑 多用于正文-->
+
+
+
+
+
+
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="half_black">#808080</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    </resources>
+

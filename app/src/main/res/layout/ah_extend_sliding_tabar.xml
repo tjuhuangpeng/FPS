@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ah_common_tabbar_layout_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ah_common_tabbar_layout_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ah_common_tabbar_layout_middle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_toLeftOf="@id/ah_common_tabbar_layout_right"
+        android:layout_toRightOf="@id/ah_common_tabbar_layout_left"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ah_common_tabbar_cover"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignRight="@id/ah_common_tabbar_layout_middle"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:src="@drawable/tab_cover"
+        android:visibility="gone"/>
+
+</merge>
